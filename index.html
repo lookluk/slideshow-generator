@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="input-container">
+        <h1>Slideshow Generator</h1>
+        <div id="textarea-container">
+            <div id="line-numbers"></div>
+            <textarea id="sentences" rows="20" placeholder="Enter your sentences here, one per line..."></textarea>
+        </div>
+        <button id="generate">Generate Slideshow</button>
+    </div>
+    <div id="slideshow-container" style="display: none;">
+        <div id="slide"></div>
+        <div id="slide-number"></div>
+        <div id="controls">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+            <button id="fullscreen">Fullscreen</button>
+            <button id="return">Return to Input</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
